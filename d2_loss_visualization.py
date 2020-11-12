@@ -18,7 +18,7 @@ y1.set_xlabel('Iterations')
 y2 = y1.twinx()
 y1.set_ylim(0,1.0)
 parsed=[]
-with open('./metrics1.json') as f:
+with open('./metrics.json') as f:
     # whole = f.read()
     # # #pattern = re.compile(r'json_stats: (\{.*\})')
     # pattern = re.compile(r'\"data_time\":.*')
